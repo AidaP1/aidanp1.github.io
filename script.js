@@ -10,7 +10,7 @@ function httpGet(get_url) {
   }
 
 function generateQuote() {
-    let evepraisal_url = document.getElementById("evepraisal link").value;
+    let evepraisal_url = document.getElementById("evepraisal_link").value;
     let get_url = evepraisal_url + '.json'
 
     let r = JSON.parse(httpGet(get_url))
