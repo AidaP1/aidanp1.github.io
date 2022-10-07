@@ -15,13 +15,12 @@ function generateQuote() {
 
     let r = JSON.parse(httpGet(get_url))
 
-
     let volume = r.totals.volume
     let market = r.market_name
     let sell_price = r.totals.sell_price
 
     let collateral = sell_price * 1.05
-    let reward  = base_price * max(volume/volume_limit, collateral/collateral_limit)
+    let reward  = base_price * Math.max(volume/volume_limit, collateral/collateral_limit)
 
     if (volume > volume_limit) {
         document.getElementById("volume").innerHTML = "Invalid: Volume too large";
