@@ -4,15 +4,36 @@
   </head>
 
 <body>
-    <header>MYST HAULING</header>
+    <h1>MYST HAULING</h1>
 
-    Name:<input type="text" id="evepraisal_link" value="evepraisal">
+    Evepraisal link:<input type="text" id="evepraisal_link">
     <button type="button" onclick="generateQuote()">Get Quote</button>
 
     <p id="volume"></p>
     <p id="collateral"></p>
     <p id="reward"></p>
     <p id="description"></p>
+    
+    <h2>Terms</h2>
+    <ul>
+      <li>Max volume: 62,500m3</li>
+      <li>Max Collateral: 1bil</li>
+      <li>If you have a larger or more expensive order. Consider splitting across multiple contracts</li>
+      <li>This service can be used to ship from the home hole to either Jita or Amarr.</li>
+      <li>You cannot courier unpackaged containers or ships. This is a ballache that requires the hauler to move the contract accepting toon to the start and end of the delivery (whne they're probably accepting with their main and hauling with a MYST affiliate alt.)</li>
+    </ul>
+
+    <h2>Use</h2>
+    <ol>
+      <li>Go to https://evepraisal.com</li>
+      <li>Set the 'market' to 'Jita'</li>
+      <li>Copy and paste your items in</li>
+      <li>Copy th evepraisal URL into the field above</li>
+    </ol>
+
+
+    <p id="instructions"></p>
+
 
     <script  src="script.js"></script>
 </body>
