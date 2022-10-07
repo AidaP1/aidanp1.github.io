@@ -13,7 +13,8 @@ function generateQuote() {
     let evepraisal_url = document.getElementById("evepraisal link").value;
     let get_url = evepraisal_url + '.json'
 
-    let r = httpGet(get_url)
+    let r = JSON.parse(httpGet(get_url))
+
 
     let volume = r.totals.volume
     let market = r.market_name
