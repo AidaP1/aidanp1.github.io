@@ -1,5 +1,5 @@
 const collateral_limit = 1000000000
-const volume_limit = 62500
+const volume_limit = 60000
 const base_price = 35000000
 
 function httpGet(get_url) {
