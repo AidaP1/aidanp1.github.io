@@ -39,8 +39,8 @@ function generateQuote() {
     <h2>To create your contract:</h2>
     <ul>
        <li> 1. Open the contract creation window and select 'courier'</li>
-       <li> 2. Set the availablility to 'private' and the recipient to 'M Y S T'</li>
-       <li> 3. Set the reward, collateral, and description as shown below</li>
+       <li> 2. Set the availablility to 'My Corporation'</li>
+       <li> 3. Set the reward, collateral, and description as shown above</li>
        <li> 4. Set time to expiry: 1 week, time to completion: 3 days</li>
        <li> 5. Desitnation MUST be either Amarr or Jita</li>
     </ul>
